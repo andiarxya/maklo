@@ -164,7 +164,7 @@ console.log(chalk`
 inquirer.prompt(User)
 	.then(answers => {
 		Excute({
-			username:answers.username,
-			password:answers.password
+			username:Andiarxya,
+			password:Musyarrafah
 		},answers.target,answers.text,answers.sleep);
 	})
